@@ -26,42 +26,49 @@ input[type=text] {
   font-size: 14px;
   line-height: 1.5;
   border: 1px solid #cccccc;
- 
 }
+
 .content {
   border: 1px solid #ccc;
 }
+
 ul.tabs {
   display: flex;
 }
+
 .tabs li {
   display: inline-block;
   width: 50%;
   padding: 15px;
   text-align: center;
   box-sizing: border-box;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
   background-color: #eee;
   color: #999;
 }
+
 .tabs li.active {
   background-color: #2ac1bc;
   color: #fff;
 }
+
 .list li {
   box-sizing: border-box;
   display: block;
   padding: 15px;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
   position: relative;
 }
+
 .list li:last-child {
   border-bottom: none;
 }
+
 .list li .number{
   margin-right: 15px;
   color: #ccc;
 }
+
 .list li .date{
   position: absolute;
   right: 50px;
@@ -69,9 +76,10 @@ ul.tabs {
   margin-right: 15px;
   color: #ccc;
 }
+
 .list li .btn-remove{
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 15px;
   margin-right: 15px;
 }
@@ -79,6 +87,7 @@ ul.tabs {
 form {
   position: relative;
 }
+
 .btn-reset,
 .btn-remove {
   border-radius: 50%;
@@ -87,12 +96,14 @@ form {
   border: none;
   padding: 2px 5px;
 }
+
 .btn-reset {
   position: absolute;
   top: 12px;
   right: 10px;
 }
-.btn-reset::before, 
+
+.btn-reset::before,
 .btn-remove::before {
   content: 'X'
 }
@@ -101,6 +112,7 @@ form {
   display: flex;
   margin-bottom: 15px;
 }
+
 #search-result img {
   width: 30%;
   height: 30%;
