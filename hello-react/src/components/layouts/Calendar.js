@@ -5,9 +5,9 @@ import CalendarMonth from '../calendar/CalendarMonth';
 class Calendar extends Component {
   render() {
     return (
-      <div>
+      <div className="calendar">
       <CalendarMonth>
-        adfasdfadfdaasdfsdfadsf
+        요거는 왜 안나와아????????????
       </CalendarMonth>
       </div>
     );

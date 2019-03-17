@@ -10,19 +10,14 @@ class CalendarMonth extends Component {
     }
   }
 
-  //constructor 역할 인자값을 받음.
-
   render() {
     return (
-      <div className="Calendar">
+      <div className="calendarMonth">
       <CalendarDay>
-        adfasdfadfdaasdfsdfadsf
+        나는 달력입니다. CalendarMonth파일입니다.
       </CalendarDay>
       </div>
     );
   }}
 
   export default CalendarMonth;
-
-  //캘린더 데이를 뿌려줌.
-  // new CalendarMoth(eiwur)   -> counstructor(eiwur);
