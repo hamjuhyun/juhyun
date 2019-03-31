@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sidebar Menu</title>
+  <link rel="stylesheet" href="css/sideMenu.css">
+</head>
+<body>
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+    <button type="button" class="sidebarBtn">
+      <span></span>
+    </button>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.sidebarBtn').click(function() {
+        $('.sidebar').toggleClass('active')
+        $(this).toggleClass('toggle')
+      })
+    });
+  </script>
+</body>
+</html>
