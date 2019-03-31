@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple JQuery Modal</title>
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+  <div class="box">
+    <a href="#" class="button open">여기를 클릭하세요~</a>
+    <div class="content">
+      <h1>Lorem ipsum is a pseudo-Lation text used in web desinging.</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus voluptatibus libero harum tenetur perferendis cum est voluptate nisi ad consequuntur quam nulla, similique officia qui consectetur ratione blanditiis obcaecati dolorem.</p>
+      <a href="#" class="button close">닫기</a>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('a.open').click(function() {
+        $('.content').addClass('active');
+      })
+      $('a.close').click(function() {
+        $('.content').removeClass('active');
+      })
+    })
+  </script>
+</body>
+</html>
