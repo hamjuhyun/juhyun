@@ -28,10 +28,6 @@ input[type=text] {
   border: 1px solid #cccccc;
 }
 
-.content {
-  border: 1px solid #ccc;
-}
-
 ul.tabs {
   display: flex;
 }
@@ -111,6 +107,7 @@ form {
 #search-result li {
   display: flex;
   margin-bottom: 15px;
+  border: 1px solid #ccc;
 }
 
 #search-result img {
